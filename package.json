@@ -1,0 +1,25 @@
+{
+  "name": "wiki_ordernar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./public/index.html -p 3000 --open",
+    "build": "parcel build ./public/index.html"
+  },
+  "author": "scenicflighter",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.25.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0",
+    "backlog-js": "^0.9.1",
+    "store": "^2.0.12"
+  }
+}
